@@ -1,0 +1,26 @@
+Prob 1
+algorithme sets
+Constante N 
+Type TabEnt = tableau [1..N]de entier
+variable T : TabEnt
+         I : entier 
+         J : entier 
+         K : entier 
+         s : entier 
+Debut
+pour i allant de 1 a N faire 
+    lire (T(i))
+fin pour 
+pour j allant de 1 a N faire 
+    lire (T(j))
+fin pour 
+pour i allant de 1 a N faire 
+pour j allant de 1 a N faire 
+if (T(i))<>()(T(j)) alors 
+    T(k) <---- T(i) et T(k) <---- t(j)
+sinon s <---- s+T(i)
+fin si 
+pour k allant de 1 a N faire 
+    lire(T(k))
+fin pour 
+fin  
